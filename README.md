@@ -1,3 +1,3 @@
 # js-code
 My Git Repository
-changes one
+changes one , this is secound changes
