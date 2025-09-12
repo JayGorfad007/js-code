@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        function read()
+        {
+
+        
+
+        f1=document.myform.firstname.value
+        f2=document.myform.lastname.value
+        f3=document.myform.password.value
+        f4=document.myform.email.value
+        
+       document.getElementById("out put").textContent + f1;
+
+            
+        }
+
+    </script>
+    
+    <form name="myform">
+         First name:<input type="text" name="firstname" /><br>
+         last name:<input type="text" name="lastname" /><br>
+         password:<input type="password" name="password"/><br>
+         email :<input type="email" name="email"/><br>
+
+          <input type="button" value="submit" onclick="read()"/>
+
+    </form>
+</body>
+</html>
